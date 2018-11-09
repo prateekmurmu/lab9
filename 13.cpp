@@ -1,8 +1,8 @@
 //Create an array of size 10. Use a loop to print array using the normal index method as well as the pointer method. 
-
+//include the library
 #include<iostream>
 using namespace std;
-
+//start the main function
 int main()
 {
    int ar[10]={1,2,3,4,5,6,7,8,9,0};
