@@ -1,8 +1,9 @@
 //a function revString(char*) which reverses the parameter cstring.The function returns nothing.You may use C++ string handling functions in <cstring> in the function if you wish.
+//include the libraries
 #include <iostream>
 #include<cstring>
 using namespace std;
-
+//start the function
 void revtString(char* p)
 {
     int end;
@@ -18,7 +19,7 @@ void revtString(char* p)
         cout<<*(p+i);
     }
 }
-
+//start the main function
 int main()
 {
     int size;
