@@ -1,7 +1,8 @@
 //a program to declare variables of all predefined sizes and declare corresponding pointers (of all predefined types). Print out the sizes of each of variables and pointer variables. (Hint: use sizeof )
+//include the library
 #include<iostream>
 using namespace std;
-
+//start the main function
 int main()
 {
     int x;
