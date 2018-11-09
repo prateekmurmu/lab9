@@ -1,4 +1,5 @@
 //a function contains(char*, char) which returns true if the 1st parameter cstring contains the 2nd parameter char, or false otherwise.
+//include the library
 #include <iostream>
 using namespace std;
 // using function cotains
@@ -15,7 +16,7 @@ bool contains(char* p,char c)
     else
     return false;
 }
-
+//start the main function
 int main()
 {
     int size;
